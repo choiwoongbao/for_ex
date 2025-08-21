@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>for 문</title>
+  </head>
+  <body>
+    <script>
+      // for 문 중첩 시켜보자 !!
+    //   for (let i = 0; i < 2; i++) {
+    //     console.log(`i : ${i}`);
+    //     for (let k = 0; k < 2; k++) {
+    //       console.log(`k : ${k}`);
+    //     }
+    //   }
+
+    //   예제 1)
+        // for (let i = 0; i <= 9; i++) {
+        //   // document.write(`*`);
+        //   for (let k = 0; k <= 9; k++) {
+        //     document.write(`*`);
+        //   }
+        //   document.write(`<br>`)
+        // }
+
+      // 예제 2)
+      for (let i = 0; i < 5; i++) {
+        document.write(`*`);
+        for (let i = 0; i < 4; i++) {
+          document.write(`*`);
+        } 
+       document.write(`<br>`);
+      }
+
+ 
+    </script>
+  </body>
+</html>
